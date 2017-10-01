@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-your_server_hostname
+ec2-54-200-149-188.us-west-2.compute.amazonaws.com
 
 [web]
-your_server_hostname
+ec2-54-200-149-188.us-west-2.compute.amazonaws.com
