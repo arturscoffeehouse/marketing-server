@@ -8,13 +8,13 @@ users:
       - "{{ web_group }}"
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjYWp4zyxA0+4ruTtNexBiToumfutF67COSEyafuC/Mh8MhmpyWD1/VGpna8zuJsF/vX6y5Mtn7nhixnTNktVuff9hC4XwbmIfUdY1gK3EwWc+gX1n+Fqedsl7tjNkasiPS2QGLrW7UiVrgmog6KFrUbNXcb5fjkgCttqk++5SQMJ78iilrm3+10pLg11ytkbe/Q8jz3WTCk220ZqH8pieiTtGiGBm1YS6Cjr54ytpGkRbzuACYEM3iecFujemi2961fedJMTMtmolGaoSZrR0xt6rl9P2jN72CWIx/n/bOczX8J1Rgti5wOrlzwn6kAe+P6roJYWRCiK4MxsV82Ut"
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjYWp4zyxA0+4ruTtNexBiToumfutF67COSEyafuC/Mh8MhmpyWD1/VGpna8zuJsF/vX6y5Mtn7nhixnTNktVuff9hC4XwbmIfUdY1gK3EwWc+gX1n+Fqedsl7tjNkasiPS2QGLrW7UiVrgmog6KFrUbNXcb5fjkgCttqk++5SQMJ78iilrm3+10pLg11ytkbe/Q8jz3WTCk220ZqH8pieiTtGiGBm1YS6Cjr54ytpGkRbzuACYEM3iecFujemi2961fedJMTMtmolGaoSZrR0xt6rl9P2jN72CWIx/n/bOczX8J1Rgti5wOrlzwn6kAe+P6roJYWRCiK4MxsV82Ut"
 
 web_user: web
 web_group: www-data
