@@ -8,7 +8,7 @@ wordpress_sites:
       - canonical: arturmoczulski.com.dev
         redirects:
           - www.arturmoczulski.com.dev
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../brewpress # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: artur.moczulski@gmail.com
     site_name: Artur Moczulski
     multisite:
@@ -23,7 +23,7 @@ wordpress_sites:
       - canonical: arturscoffeehouse.com.dev
         redirects:
           - www.arturscoffeehouse.com.dev
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../brewpress # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: artur@arturscoffehouse.com
     site_name: Artur Moczulski
     multisite:
