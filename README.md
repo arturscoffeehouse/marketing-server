@@ -1,1 +1,1 @@
-# arturmoczulski.com
+# Marketing servers configuration for WordPress Trellis
