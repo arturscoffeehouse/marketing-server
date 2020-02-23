@@ -23,7 +23,7 @@ wordpress_sites:
       - canonical: elevatedwebapps.com.local
         redirects:
           - www.elevatedwebapps.com.local
-    local_path: ../brewpress # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../bedrock # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: artur@elevatedwebapps.com
     site_name: Elevated Web Apps
     multisite:
