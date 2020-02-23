@@ -1,4 +1,4 @@
 [submodule "brewpress"]
 	path = brewpress
-	url = https://github.com/arturscoffeehouse/brewpress
+	url = https://github.com/elevatedwebapps/brewpress
 	branch = master

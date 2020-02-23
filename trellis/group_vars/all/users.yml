@@ -7,13 +7,13 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+      - "{{ lookup('file', '/Users/moczulski/Downloads/arturmoczulskicom.pem') }}"
       - https://github.com/arturmoczulski.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+      - "{{ lookup('file', '/Users/moczulski/Downloads/arturmoczulskicom.pem') }}"
 
 web_user: web
 web_group: www-data
