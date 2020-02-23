@@ -7,13 +7,13 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '~/.ssh/ACH-DevelopmentTeam.pem') }}"
-      - https://github.com/arturmoczulski.keys
+      - "{{ lookup('file', '~/.ssh/ACH-DevelopmentTeam.pub') }}"
+      - https://github.com/ArturMoczulski.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/ACH-DevelopmentTeam.pem') }}"
+      - "{{ lookup('file', '~/.ssh/ACH-DevelopmentTeam.pub') }}"
 
 web_user: web
 web_group: www-data

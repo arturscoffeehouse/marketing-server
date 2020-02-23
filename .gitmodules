@@ -2,3 +2,6 @@
 	path = brewpress
 	url = https://github.com/elevatedwebapps/brewpress
 	branch = master
+[submodule "bedrock"]
+	path = bedrock
+	url = git@github.com:elevatedwebapps/bedrock.git
