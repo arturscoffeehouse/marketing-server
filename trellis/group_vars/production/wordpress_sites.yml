@@ -3,28 +3,28 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  arturmoczulski.com:
+  # arturmoczulski.com:
+  #   site_hosts:
+  #     - canonical: arturmoczulski.com
+  #       redirects:
+  #         - www.arturmoczulski.com
+  #   local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+  #   repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+  #   branch: master
+  #   multisite:
+  #     enabled: false
+  #   ssl:
+  #     enabled: false
+  #     provider: letsencrypt
+  #   cache:
+  #     enabled: false
+  elevatedwebapps.com:
     site_hosts:
-      - canonical: arturmoczulski.com
+      - canonical: elevatedwebapps.com
         redirects:
-          - www.arturmoczulski.com
+          - www.elevatedwebapps.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
-    branch: master
-    multisite:
-      enabled: false
-    ssl:
-      enabled: false
-      provider: letsencrypt
-    cache:
-      enabled: false
-  arturscoffeehouse.com:
-    site_hosts:
-      - canonical: arturscoffeehouse.com
-        redirects:
-          - www.arturscoffeehouse.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:arturscoffeehouse/brewpress.git # replace with your Git repo URL
+    repo: git@github.com:elevatedwebapps/brewpress.git # replace with your Git repo URL
     branch: master
     multisite:
       enabled: false

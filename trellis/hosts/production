@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-arturmoczulski.com
+elevatedwebapps.com
 
 [web]
-arturmoczulski.com
+elevatedwebapps.com
